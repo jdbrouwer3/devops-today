@@ -20,5 +20,12 @@ namespace devops_today.MSTesting.Tests
 
       Assert.IsNotNull(sut.Privacy());
     }
+
+    public void Test_ErrorAction()
+    {
+      var sut = new HomeController();
+
+      Assert.IsNotNull(sut.Error());
+    }
   }
 }
