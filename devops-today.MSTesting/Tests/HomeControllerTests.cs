@@ -1,9 +1,9 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using devops_today.Controller;
+using devops_today.Controllers;
 
 namespace devops_today.MSTesting.Tests
 {
-  [TestsClass]
+  [TestClass]
   public class HomeControllerTests
   {
     [TestMethod]
