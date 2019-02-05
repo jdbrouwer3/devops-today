@@ -14,6 +14,7 @@ namespace devops_today.MSTesting.Tests
       Assert.IsNotNull(sut.Index());
     }
 
+    [TestMethod]
     public void Test_PrivacyAction()
     {
       var sut = new HomeController();
@@ -21,11 +22,6 @@ namespace devops_today.MSTesting.Tests
       Assert.IsNotNull(sut.Privacy());
     }
 
-    public void Test_ErrorAction()
-    {
-      var sut = new HomeController();
 
-      Assert.IsNotNull(sut.Error());
-    }
   }
 }
